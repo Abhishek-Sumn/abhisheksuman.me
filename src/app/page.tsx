@@ -3,9 +3,12 @@ import { ModeToggle } from "@/components/utils/ThemeSetter"
 import * as React from "react"
 import Image from "next/image";
 
+
 export default function Home() {
 
+
   return (
+
     <main className="flex  flex-col items-center justify-between p-16 font-light text-[#bbbbbb] ">
 
       <nav className="text-center fixed z-3  rounded-3xl w-auto p-4 border bg-[#72727233] bgblur ">
@@ -27,38 +30,19 @@ export default function Home() {
 
       </section>
 
-      <section>
-        <h1>About</h1>
-        <p>
-          I'm a 21 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a frontend developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.
-        </p>
-      </section>
+      <div className="p-8 ">
 
-      <section>
-        <h1>About</h1>
-        <p>
-          I'm a 21 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a frontend developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.
-        </p>
-      </section>
+        <section className="text-justify ">
+          <h1 className="text-white text-2xl">About</h1>
+          <p className="text-sm md:text-base mt-2 w-[90vw] ">
+            I'm a 23 year old developer living in India. I discovered my passion for coding after seeing movies. I fell in love with using my creativity to build things for the web. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a frontend developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.
+          </p>
+        </section>
 
-
-      <section>
-        <h1>About</h1>
-        <p>
-          I'm a 21 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a frontend developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.
-        </p>
-      </section>
-
-      <section>
-        <h1>About</h1>
-        <p>
-          I'm a 21 year old developer living in Germany. I discovered my passion for coding after seeing my brother do it. I fell in love with using my creativity to build things for the web. Through persistence, self-discipline, and commitment, I achieved my goal of becoming a frontend developer. What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.
-        </p>
-      </section>
-
-      <div>
-        <ModeToggle />
       </div>
+
+
+
 
     </main>
   );
