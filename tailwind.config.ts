@@ -93,7 +93,33 @@ const config = {
       },
       { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
     );
-  },],
+  },
+  function ({ addUtilities }) {
+    const newUtilities = {
+      ".scrollbar-thin": {
+        scrollbarWidth: "thin",
+        scrollbarColor: "rgb(104 9 249) black",
+       
+      },
+      ".scrollbar-webkit": {
+        "&::-webkit-scrollbar": {
+          width: "8px" 
+        },
+      
+        "&::-webkit-scrollbar-track": {
+          background: "blue"
+        },
+        "&::-webkit-scrollbar-thumb": {
+          backgroundColor: "rgb(31 41 55)",
+          borderRadius: "40px",
+          border: "1px solid blue"
+        },
+      }
+    }
+    addUtilities(newUtilities,["responsive","hover"])
+  }
+  
+],
 } satisfies Config
 
 export default config
@@ -103,7 +129,7 @@ function addVariablesForColors({ addBase, theme }: any) {
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
- 
+
   addBase({
     ":root": newVars,
   });
