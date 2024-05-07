@@ -52,7 +52,7 @@ export default function Home() {
         <section className="text-justify  w-[82vw] ">
           <h1 className="text-white text-2xl">About</h1>
           <p className="text-sm md:text-base mt-2">
-            I'm a 23 year old developer living in India. I discovered my passion for coding after watching movies back in 2012 but i started coding at 19. I fell in love with using my creativity to build things for the web.What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.Right now i am looking for junior/associates role where i can contribute and grow.
+            I&apos;m a 23 year old developer living in India. I discovered my passion for coding after watching movies back in 2012 but i started coding at 19. I fell in love with using my creativity to build things for the web.What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.Right now i am looking for junior/associates role where i can contribute and grow.
           </p>
         </section>
       </div>
