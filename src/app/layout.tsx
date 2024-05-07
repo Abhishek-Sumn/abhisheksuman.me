@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Abhishek Suman",
   description: "Developed by Abhishek Suman with ❤️",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/abhi-logo.png",
   },
 };
 
