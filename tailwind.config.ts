@@ -94,7 +94,7 @@ const config = {
       { values: flattenColorPalette(theme("backgroundColor")), type: "color" }
     );
   },
-  function ({ addUtilities }) {
+  function ({ addUtilities }:any) {
     const newUtilities = {
       ".scrollbar-thin": {
         scrollbarWidth: "thin",

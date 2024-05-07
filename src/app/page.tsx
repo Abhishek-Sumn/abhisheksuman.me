@@ -262,8 +262,7 @@ const Linkedinicon = () => {
   );
 };
 
-
-export const Icon = ({ className, ...rest }: any) => {
+const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -409,7 +408,7 @@ const content = [
       <div>
         <ul className="list-disc">
           <li>Leveraged the OMDB API to seamlessly fetch and  integrate
-            external data, enhancing the application'scontent  with up-to-date information and enriching the UX</li>
+            external data, enhancing the application&apos;scontent  with up-to-date information and enriching the UX</li>
 
           <li>Implemented Link from react-router-dom improving user  experience by smoothening interface.</li>
 
