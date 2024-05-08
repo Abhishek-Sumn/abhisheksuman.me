@@ -80,10 +80,10 @@ export default function Home() {
               duration: 0.5,
               ease: [0.4, 0.0, 0.2, 1],
             }}
-            className=" text-xs md:text-base px-4 font-slim text-[#bbbbbb]dark:text-white w-[90vw] md:w-[82vw]  leading-relaxed lg:leading-snug text-center flex flex-col md:flex-row justify-between "
+            className=" my-class text-xs md:text-base px-4 font-slim text-white w-[90vw] md:w-[82vw]  leading-relaxed lg:leading-snug text-center flex flex-col md:flex-row justify-between "
           >
-            <div className="flex flex-col md:gap-4 text-white">
-              {/*  <h1 className="text-lg font-bold">Experience</h1> */}
+            <div className="flex flex-col md:gap-4 text-white ">
+      
               <h1 className="text-xl font-bold">Inxee Systems Pvt ltd</h1>
               <h1 className="">May 2023  -  June 2023</h1>
             </div>
