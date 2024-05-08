@@ -25,7 +25,7 @@ export default function Home() {
 
   return (
 
-    <main className="flex  flex-col items-center justify-between font-light text-[#bbbbbb] ">
+    <main className="flex  flex-col items-center justify-between font-light text-[#bbbbbb] my-class  ">
 
       <nav className="text-center fixed z-30  rounded-3xl mt-[4%] w-auto p-4 border bg-[#72727233] bgblur ">
         <ul className="flex justify-center space-x-6 md:space-x-20  ">
