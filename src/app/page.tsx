@@ -88,7 +88,7 @@ export default function Home() {
               <h1 className="">May 2023  -  June 2023</h1>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 my-class">
               <Highlight className="text-[#e8e5e5] text-xl ">
                 Web Application Developer
               </Highlight>
@@ -135,7 +135,7 @@ export default function Home() {
       <div className=" ">
 
         <>
-          <div className="py-20 grid grid-cols-2 md:flex md:grid-cols-2 lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+          <div className="py-20 grid grid-cols-2 md:flex md:grid-cols-2 lg:flex-row items-center justify-center bg-black w-full gap-4 mx-auto px-8">
             <Card title="Github" icon={<Githubicon />} link="https://github.com/Abhishek-Sumn"  >
               <CanvasRevealEffect
                 animationSpeed={5.1}
