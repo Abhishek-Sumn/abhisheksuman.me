@@ -144,15 +144,13 @@ export default function Home() {
             </Card>
             <Card title="Leetcode" icon={<Leetcode />} link="https://leetcode.com/u/abhirz/" >
               <CanvasRevealEffect
-                animationSpeed={3}
-                containerClassName="bg-black"
-                colors={[
-                  [248, 245, 10],
-                ]}
-                dotSize={12}
+                animationSpeed={5.1}
+                containerClassName="bg-yellow-700"
+                colors={[[248, 245, 10]]}
+                /* dotSize={4} */
               />
               {/* Radial gradient for the cute fade */}
-              <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+              
             </Card>
             <Card title="Linkedin" icon={<Linkedinicon />} link="https://www.linkedin.com/in/abhishek-suman-0021411b7/">
               <CanvasRevealEffect
