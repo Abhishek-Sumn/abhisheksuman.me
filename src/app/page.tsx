@@ -84,6 +84,60 @@ export default function Home() {
           >
             <div className="flex flex-col md:gap-4 text-white ">
       
+              <h1 className="text-xl font-bold">Falcon Autotech</h1>
+              <h1 className="">May 2024  -  present</h1>
+            </div>
+
+            <div className="flex flex-col gap-4 my-class">
+              <Highlight className="text-[#e8e5e5] text-xl ">
+                Software Engineer
+              </Highlight>
+
+
+              <ul className="flex flex-col gap-2 text-[11px] md:text-[16px]">
+                <li className="text-justify leading-3 md:leading-6 flex gap-2">
+                  <Gavel />
+                  Develop robust and scalable RESTful APIs using .NET, handling 10,000+ requests daily in production.
+                </li>
+                <li className="text-justify leading-3 md:leading-6 flex gap-2 ">
+                  <Gavel />
+                  Design efficient, scalable database schemas and queries using MySQL to support complex business logic.
+                </li>
+                <li className="text-justify leading-3 md:leading-6 flex gap-2 ">
+                  <Gavel />
+                  Optimize API performance and ensure high availability for real-world, high-traffic applications.
+                </li>
+                {/* adding project id here for better view */}
+                <li className="text-justify leading-3 md:leading-6 flex gap-2 " id="Project">
+                  <Gavel />
+                  Developed .NET services to control and coordinate physical sortation systems like belt and cross-belt systems  (CBS).  
+                </li>
+              </ul>
+
+
+            </div>
+
+          </motion.h1>
+        </HeroHighlight>
+
+        <HeroHighlight>
+          <motion.h1
+            initial={{
+              opacity: 0,
+              y: 20,
+            }}
+            animate={{
+              opacity: 1,
+              y: [20, -5, 0],
+            }}
+            transition={{
+              duration: 0.5,
+              ease: [0.4, 0.0, 0.2, 1],
+            }}
+            className=" my-class text-xs md:text-base px-4 font-slim text-white w-[90vw] md:w-[82vw]  leading-relaxed lg:leading-snug text-center flex flex-col md:flex-row justify-between "
+          >
+            <div className="flex flex-col md:gap-4 text-white ">
+      
               <h1 className="text-xl font-bold">Inxee Systems Pvt ltd</h1>
               <h1 className="">May 2023  -  June 2023</h1>
             </div>

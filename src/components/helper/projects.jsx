@@ -55,4 +55,12 @@ export const projects = [
       title: "Postman",
       link: "postman.png",
     },
+    {
+      title: "Asp.net",
+      link: "net.png",
+    },
+    {
+      title: "C#",
+      link: "c.png",
+    },
   ];
