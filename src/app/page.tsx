@@ -45,14 +45,14 @@ export default function Home() {
         <span className="md:text-6xl p-2 text-center bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient ">A Digital Crafter-Crafting digital elegance
         </span>
 
-        <span className="text-sm text-center md:text-xl m-2" id="about">Passionate about crafting user-centric experiences intuitive, accessible,and tailored to user needs.</span>
+        <span className="text-sm text-center md:text-xl m-2" id="about">Designing backend systems that prioritize performance, reliability, and frontend interoperability.</span>
       </section>
 
       <div className="p-8 ">
         <section className="text-justify  w-[82vw] ">
           <h1 className="text-white text-2xl">About</h1>
           <p className="text-sm md:text-base mt-2">
-            I&apos;m a 23 year old developer living in India. I discovered my passion for coding after watching movies back in 2012 but i started coding at 19. I fell in love with using my creativity to build things for the web.What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.Right now i am looking for junior/associates role where i can contribute and grow.
+            I&apos;m a 23 year old developer living in India. I discovered my passion for coding after watching movies back in 2012 but i started coding at 19. I fell in love with using my creativity to build things for the web.What kept me on this journey is that I always find learning new things exciting and facing unfamiliar challenges. In addition to coding, I enjoy building side projects because it allows me to explore my creativity and accomplish exciting things.Right now i am looking for software/backend engineer role where i can contribute and grow.
           </p>
         </section>
       </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 {/* adding project id here for better view */}
                 <li className="text-justify leading-3 md:leading-6 flex gap-2 " id="Project">
                   <Gavel />
-                  Developed .NET services to control and coordinate physical sortation systems like belt and cross-belt systems  (CBS).  
+                  Developed .NET services to control and coordinate physical sortation systems like belt and cross-belt systems (CBS).  
                 </li>
               </ul>
 
